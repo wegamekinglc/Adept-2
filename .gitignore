@@ -30,3 +30,8 @@ Makefile
 !test/Makefile
 !doc/Makefile
 include/adept_source.h
+cmake-build-debug
+cmake-build-release
+.idea
+build
+lib
