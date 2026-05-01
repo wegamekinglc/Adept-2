@@ -68,7 +68,7 @@ message("-- CMAKE_BUILD_TYPE: ${CMAKE_BUILD_TYPE}")
 message("-- CMAKE_CXX_FLAGS: ${CMAKE_CXX_FLAGS}")
 message("-- CMAKE_CXX_STANDARD: ${CMAKE_CXX_STANDARD}")
 message("-- BUILD_SHARED_LIBS: ${BUILD_SHARED_LIBS}")
-include_directories(${CMAKE_SOURCE_DIR}/include)
+include_directories(${PROJECT_SOURCE_DIR}/include)
 message("-- ADEPT INCLUDE DIR: ${PROJECT_SOURCE_DIR}/include")
 
 add_subdirectory(adept)
